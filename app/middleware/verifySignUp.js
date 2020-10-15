@@ -10,7 +10,7 @@ checkDuplicate = (req, res, next) => {
   }).then(user => {
     if (user) {
       res.status(400).send({
-        message: "Failed! Login is already in use!"
+        message: "This user already exists"
       });
       return;
     }
