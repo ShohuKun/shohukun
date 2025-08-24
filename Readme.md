@@ -29,7 +29,3 @@ This is a basic Node.js application.
 
 - Node.js (v14 or higher)
 - npm
-
-## License
-
-MIT
